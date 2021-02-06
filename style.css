@@ -1,0 +1,123 @@
+.area {
+    cursor: pointer;
+    color: rgb(43, 5, 5);
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid rgb(36, 26, 26);
+    transition: all 0.3s linear;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.main_nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .main_nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide{
+    background-color: rgb(211, 212, 209);
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+}
+
+.Knight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    transition: all 0.5s;
+
+}
+
+.Knight:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hood {
+    width: 20rem;
+}
+
+h1{
+    color: rgb(9, 31, 53);
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    padding: 10px;
+}
+
+
+#blade{
+    height: 55vh;
+    transition: all 0.5s;
+}
+
+#blade:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#armor {
+    background: url(./knight2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+
+.steel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
